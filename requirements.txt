@@ -1,0 +1,15 @@
+# Core dependencies
+pyrogram==2.0.106          # Telegram Bot API client
+tgcrypto==1.2.2           # Telegram crypto library for Pyrogram
+
+# Database dependencies
+motor==3.1.1              # MongoDB async driver (used for your database module)
+
+# Logging and utility dependencies
+loguru==0.6.0             # Advanced logging features
+python-dotenv==1.0.0      # For loading environment variables from .env
+
+# Optional Dependencies (for external APIs)
+requests==2.31.0          # HTTP requests library (used for external API calls like weather)
+aiohttp==3.8.5            # Async HTTP requests (if needed for APIs)
+pytz==2023.3             # Timezone handling
