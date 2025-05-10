@@ -1,4 +1,4 @@
 """
-Decorators for Mitsuri Bot.
-Includes admin checks, error handling, and rate limiting.
+Middleware for Mitsuri Bot.
+Includes rate limiting, blacklisting, and message logging.
 """
