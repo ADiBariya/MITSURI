@@ -27,7 +27,7 @@ async def start_command(client: Client, message: Message):
 
     # Send the welcome message
     await message.reply_photo(
-        photo="https://telegra.ph/file/57c0f9b7c9a947c7c3b65.jpg",  # Mitsuri-themed image
+        photo="https://files.catbox.moe/uesfmh.jpg",  # Mitsuri-themed image
         caption=welcome_text,
         reply_markup=keyboard
     )
